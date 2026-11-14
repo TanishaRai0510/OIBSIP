@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f6f8">
+  <meta name="description" content="A clear, easy temperature converter for Celsius, Fahrenheit, and Kelvin.">
+  <title>Degree — Temperature Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Degree home"><span class="brand-icon">°</span><span>degree<span class="brand-dot">.</span></span></a>
+    <span class="topbar-note"><span class="status-dot"></span> YOUR EVERYDAY TEMPERATURE TOOL</span>
+    <a class="top-link" href="#how-it-works">How it works <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="workspace" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="eyebrow"><span class="sun-icon">✳</span> SIMPLE AS THAT</p>
+        <h1 id="page-title">A little clarity<br>on <span>degrees.</span></h1>
+        <p class="intro-text">Convert a temperature in a couple of clicks. Choose your starting scale and we’ll show you the rest.</p>
+        <div class="trust-note"><span class="check-icon">✓</span> Celsius, Fahrenheit & Kelvin <span class="trust-divider">·</span> Always free</div>
+      </div>
+
+      <section class="converter-card" aria-label="Temperature converter">
+        <div class="card-top"><div><span class="tiny-label">TEMPERATURE CONVERTER</span><h2>Make a conversion</h2></div><span class="thermo-icon" aria-hidden="true">♨</span></div>
+        <form id="converter-form" novalidate>
+          <div class="field-label-row"><label for="temperature">Temperature value</label><span class="field-hint">Enter a number</span></div>
+          <div class="input-row">
+            <input id="temperature" name="temperature" type="text" inputmode="decimal" autocomplete="off" placeholder="e.g. 24" aria-describedby="input-error" required>
+            <span class="input-divider" aria-hidden="true"></span>
+            <label class="visually-hidden" for="input-unit">Input unit</label>
+            <select id="input-unit" name="unit">
+              <option value="celsius">°C <span>Celsius</span></option>
+              <option value="fahrenheit">°F Fahrenheit</option>
+              <option value="kelvin">K Kelvin</option>
+            </select>
+          </div>
+          <p class="error-message" id="input-error" role="alert" aria-live="polite"></p>
+          <button class="convert-button" type="submit">Convert temperature <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="results" id="results" aria-live="polite" aria-atomic="true">
+          <div class="results-heading"><span>YOUR RESULTS</span><span class="result-rule"></span><span class="results-caption" id="results-caption">ALL SCALES</span></div>
+          <div class="result-grid">
+            <article class="result-tile celsius-tile"><div class="tile-heading"><span class="unit-symbol">°C</span><span class="unit-name">CELSIUS</span></div><p class="result-value" id="result-celsius">—<span class="result-unit">°C</span></p><p class="result-description" id="description-celsius">Metric scale</p></article>
+            <article class="result-tile fahrenheit-tile"><div class="tile-heading"><span class="unit-symbol">°F</span><span class="unit-name">FAHRENHEIT</span></div><p class="result-value" id="result-fahrenheit">—<span class="result-unit">°F</span></p><p class="result-description" id="description-fahrenheit">Everyday classic</p></article>
+            <article class="result-tile kelvin-tile"><div class="tile-heading"><span class="unit-symbol">K</span><span class="unit-name">KELVIN</span></div><p class="result-value" id="result-kelvin">—<span class="result-unit">K</span></p><p class="result-description" id="description-kelvin">Absolute scale</p></article>
+          </div>
+          <p class="absolute-note"><span aria-hidden="true">ⓘ</span> The lowest possible temperature is absolute zero: −273.15 °C.</p>
+        </div>
+      </section>
+      <div class="decor decor-left" aria-hidden="true">°</div><div class="decor decor-right" aria-hidden="true">✳</div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="how-title"><p class="eyebrow">NO MYSTERY, JUST MATH</p><h2>What happens<br><em>behind the scenes.</em></h2></div>
+      <div class="how-steps"><article><span class="step-number">01</span><div><h3>Pick a starting point</h3><p>Enter any temperature and choose Celsius, Fahrenheit, or Kelvin.</p></div></article><article><span class="step-number">02</span><div><h3>We find the common ground</h3><p>Your value is converted to Celsius first, so every result stays consistent.</p></div></article><article><span class="step-number">03</span><div><h3>See every scale at once</h3><p>Get all three readings together, rounded neatly to two decimal places.</p></div></article></div>
+    </section>
+    <section class="formula-strip"><span class="formula-mark">∑</span><p><strong>The handy bit:</strong> °F = (°C × 9/5) + 32 <span>·</span> K = °C + 273.15</p><span class="formula-flower">✳</span></section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-icon">°</span><span>degree<span class="brand-dot">.</span></span></a><p>A small tool for getting the numbers right.</p><span class="footer-credit">MADE FOR CURIOUS MINDS <span>✳</span></span></footer>
+</body>
+</html>
