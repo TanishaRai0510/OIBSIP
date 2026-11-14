@@ -8,7 +8,7 @@ An interactive web tool that converts temperatures between **Celsius, Fahrenheit
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop view](screenshots/desktop2.png) | ![Mobile view](screenshots/mobile2.png) |
+| ![Desktop view](Screenshots/desktop2.png) | ![Mobile view](Screenshots/mobile2.jpg) |
 
 ## Features
 
