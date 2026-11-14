@@ -8,7 +8,7 @@ A responsive personal portfolio website for **Tanisha Rai**, an aspiring web dev
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop view](screenshots/desktop1.png) | ![Mobile view](screenshots/mobile1.png) |
+| ![Desktop view](Screenshots/desktop1.png) | ![Mobile view](Screenshots/mobile1.jpg) |
 
 ## Sections
 
