@@ -8,7 +8,7 @@ A static, responsive landing page for **Fieldnote**, a fictional botanical tea b
 
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop view](screenshots/desktop.png) | ![Mobile view](screenshots/mobile.png) |
+| ![Desktop view](Screenshots/desktop.png) | ![Mobile view](Screenshots/mobile.jpg) |
 
 ## Features
 
