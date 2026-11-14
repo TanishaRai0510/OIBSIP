@@ -13,8 +13,8 @@ This repository contains all of my task submissions for the Oasis Infobyte Stude
 | # | Task | Folder | Tech Stack |
 |---|------|--------|------------|
 | 1 | Landing Page | [`WebDev-L1-LandingPage`](./WebDev-L1-LandingPage) | HTML5, CSS3 |
-| 2 | Personal Portfolio | [`WebDev-L2-Portfolio`](./WebDev-L2-Portfolio) | HTML5, CSS3 |
-| 3 | Temperature Converter | [`WebDev-L3-TemperatureConverter`](./WebDev-L3-TemperatureConverter) | HTML5, CSS3, JavaScript |
+| 2 | Personal Portfolio | [`WebDev-L1-Portfolio`](./WebDev-L1-Portfolio) | HTML5, CSS3 |
+| 3 | Temperature Converter | [`WebDev-L1-TemperatureConverter`](./WebDev-L1-TemperatureConverter) | HTML5, CSS3, JavaScript |
 
 ## How to run any project
 
@@ -32,8 +32,8 @@ An internet connection is recommended, since fonts and some images load from Goo
 OIBSIP/
 ├── README.md
 ├── WebDev-L1-LandingPage/
-├── WebDev-L2-Portfolio/
-└── WebDev-L3-TemperatureConverter/
+├── WebDev-L1-Portfolio/
+└── WebDev-L1-TemperatureConverter/
 ```
 
 ## Hashtags
